@@ -3,8 +3,21 @@
   font-family: 'Inter';
   font-style: normal;
   font-weight: normal;
-  font-size: 24px;
-  line-height: 23px;
+  font-size: 1.5rem;
+  line-height: 1.4375;
   margin-top: 0;
-  margin-bottom: 0;
+  margin-bottom: 0.75rem;
+  margin-right: 1.125rem;
+}
+
+.header__lang:last-of-type {
+  margin-right: 0;
+}
+
+@media screen and (max-width: 424px) {
+  .header__lang {
+    font-size: 1.125rem;
+    line-height: 1.0625rem;
+    margin-right: 1rem;
+  }
 }
