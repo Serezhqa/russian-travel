@@ -1,0 +1,32 @@
+.video__content-subtitle {
+  margin-top: 48px;
+  margin-bottom: 72px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.5rem;
+  line-height: 2.1875rem;
+  max-width: 640px;
+  text-align: center;
+}
+
+@media screen and (max-width: 1023px) {
+  .video__content-subtitle {
+    margin-top: 24px;
+    margin-bottom: 56px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .video__content-subtitle {
+    font-size: 1rem;
+    line-height: 1.4375rem;
+  }
+}
+
+@media screen and (max-width: 424px) {
+  .video__content-subtitle {
+    margin-top: 16px;
+    margin-bottom: 24px;
+  }
+}

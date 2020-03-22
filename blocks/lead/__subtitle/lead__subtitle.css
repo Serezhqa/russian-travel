@@ -20,7 +20,7 @@
   .lead__subtitle {
     font-size: 1rem;
     line-height: 1.4375rem;
-    max-width: calc(100% - 16px * 2);
+    width: calc(100% - 16px * 2);
   }
 }
 
