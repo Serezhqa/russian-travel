@@ -1,18 +1,13 @@
 .video__container {
   display: flex;
   width: 100%;
-  min-height: 323px;
-}
-
-@media screen and (max-width: 1279px) {
-  .video__container {
-    min-height: 288px;
-  }
+  padding-top: 72px;
+  box-sizing: border-box;
 }
 
 @media screen and (max-width: 1023px) {
   .video__container {
-    min-height: 200px;
+    padding-top: 56px;
   }
 }
 
@@ -24,12 +19,6 @@
 
 @media screen and (max-width: 424px) {
   .video__container {
-    flex-direction: column;
-  }
-}
-
-@media screen and (max-width: 374px) {
-  .video__container {
-    min-height: 192px;
+    padding-top: 24px;
   }
 }

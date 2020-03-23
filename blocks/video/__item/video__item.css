@@ -1,6 +1,7 @@
 .video__item {
   flex: 1;
   margin-right: 18px;
+  min-height: 323px;
   position: relative;
   color: white;
   text-decoration: none;
@@ -13,9 +14,21 @@
   margin-right: 0;
 }
 
+.video__item:hover .overlay {
+  background-color: black;
+  opacity: 0.5;
+}
+
 @media screen and (max-width: 1279px) {
   .video__item {
     margin-right: 16px;
+    min-height: 288px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .video__item {
+    min-height: 200px;
   }
 }
 
@@ -30,5 +43,11 @@
 @media screen and (max-width: 424px) {
   .video__item {
     min-height: 200px;
+  }
+}
+
+@media screen and (max-width: 374px) {
+  .video__item {
+    min-height: 192px;
   }
 }

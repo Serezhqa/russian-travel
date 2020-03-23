@@ -6,3 +6,7 @@
   line-height: 1.875rem;
   color: white;
 }
+
+.place__url:hover {
+  opacity: 0.5;
+}
