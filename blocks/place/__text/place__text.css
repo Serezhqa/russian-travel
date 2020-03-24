@@ -1,9 +1,4 @@
 .place__text {
-  font-family: 'Inter';
-  font-style: normal;
-  font-weight: normal;
-  font-size: 1.125rem;
-  line-height: 1.875rem;
   max-width: 484px;
 }
 
@@ -17,7 +12,6 @@
 @media screen and (max-width: 767px) {
   .place__text {
     width: calc(100% - 24px * 2);
-    margin-left: 24px;
     margin-top: 24px;
   }
 }

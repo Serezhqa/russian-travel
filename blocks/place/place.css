@@ -40,11 +40,13 @@
   .place {
     grid-template-columns: 1fr;
     row-gap: 0;
+    width: calc(100% - 24px * 2);
   }
 }
 
 @media screen and (max-width: 424px) {
   .place {
     padding-bottom: 48px;
+    width: 100%;
   }
 }
